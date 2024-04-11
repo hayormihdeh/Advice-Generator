@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+:root {
+  --LightCyan: hsl(193, 38%, 86%);
+  --NeonGreen: hsl(150, 100%, 66%);
+
+  /* ### Neutral */
+
+  --GrayishBlue: hsl(217, 19%, 38%);
+  --DarkGrayishBlue: hsl(217, 19%, 24%);
+  --DarkBlue: hsl(218, 23%, 16%);
+}
+
+body {
+  background: var(--DarkBlue);
+}
+
+.wrapper {
+  width: 70vmin;
+  padding: 10px 50px;
+  background-color:var(--DarkGrayishBlue);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+
+}
+
+p {
+    color : #fff;
+    font-size : 1.3rem;
+    font-weight:700;
+    text-align: center;
+    word-wrap: break-word;
+    line-height: 35px;
+    margin: 15px 0;
+   
+ }
+
+button {
+    display :  block;
+    background-color: #fab22e;
+    border : none;
+    padding:5px;
+    font-size : 18px;
+    color: #171721;
+    font-weight: 600;;
+    padding: 12px 25px;
+    margin : 0 auto;
+    border-radius :5px;
+    cursor : pointer
+
+}
+
+.wrap {
+    position : relative;
+}
+
+#btn{
+    background-color: var(--NeonGreen);
+    border-radius : 50%;
+    padding : 10px;
+    position: absolute;
+    cursor: pointer;  
+    left: 45%;
+    top :90% 
+}
+
+.pattern img {
+    width : 100%;
+    margin-bottom : 38px
+}
+
+
+#adviceId {
+    text-align: center;
+    color : var(--NeonGreen);
+    font-size : 12px;
+}
