@@ -85,3 +85,14 @@ button {
     color : var(--NeonGreen);
     font-size : 12px;
 }
+
+@media(max-width : 768px) {
+    .wrapper {
+        width: 93vmin;
+      }
+
+      p {
+        font-size : 1.1rem;
+        line-height: 28px;
+     }
+}
